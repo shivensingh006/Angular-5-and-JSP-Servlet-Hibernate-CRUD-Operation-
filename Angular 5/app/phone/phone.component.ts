@@ -14,7 +14,7 @@ export class PhoneComponent implements OnInit {
   public searchResult;
 
   ngOnInit() {
-    this.getUserService.getUser().subscribe(result=>{
+    this.getUserService.getPhone().subscribe(result=>{
       this.searchResult = result;
       console.log(this.searchResult);
     });
@@ -23,7 +23,7 @@ export class PhoneComponent implements OnInit {
 
    deleteUser($event, id){
     $event.target.parentElement.parentElement.className= "hide";
-    this.getUserService.deleteUser(id).subscribe(result=>{
+    this.getUserService.deletePhone(id).subscribe(result=>{
       this.searchResult = result;
     }); 
 

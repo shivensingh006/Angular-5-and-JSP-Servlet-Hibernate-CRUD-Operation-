@@ -23,7 +23,7 @@ public searchResult;
           // In a real app: dispatch action to load the details here.
       });
      if(this.id){
-     this.getUserService.getEditUser(this.id).subscribe(result=>{
+     this.getUserService.getEditPhone(this.id).subscribe(result=>{
       this.searchResult = result;
       this.formGroup = this.formBuilder.group({
         id: new FormControl(this.id),
@@ -58,9 +58,9 @@ url;
 onSubmit(data) {
   console.log(data);
   if(data.id == null || data.id==''){
-   this.url = this.getUserService.addNew(data);
+   this.url = this.getUserService.addNewPhone(data);
   }else{
-    this.url = this.getUserService.updateUser(data);
+    this.url = this.getUserService.updatePhone(data);
   }
   this.url.subscribe(result=>{
     this.searchResult = result}

@@ -18,7 +18,7 @@ export class TestComponent implements OnInit {
   public searchResult;
 
   ngOnInit() {
-    this.getUserService.getUser().subscribe(result=>{
+    this.getUserService.getPhone().subscribe(result=>{
       this.searchResult = result;
       console.log(this.searchResult);
     });

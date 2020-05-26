@@ -7,7 +7,7 @@ export class GetUserService {
   constructor(public http:Http) { }
 
   //Get list
-  getUser():Observable<any>{
+  getPhone():Observable<any>{
    return this.http.get("http://localhost:8085/Servlet/service").pipe(
     map(data=>data.json()),
    )
@@ -16,7 +16,7 @@ export class GetUserService {
   
   //Get edit form to update data
   private httpOptions;
-  getEditUser(id):Observable<any>{
+  getEditPhone(id):Observable<any>{
     this.httpOptions = {
       params: {'id': id, 'actionEdit':'edit'}
     };
@@ -26,7 +26,7 @@ export class GetUserService {
    }
 
    // Delete 
-   deleteUser(id):Observable<any>{
+   deletePhone(id):Observable<any>{
     this.httpOptions = {
       params: {'id': id, 'actiondelete':'yes'}
     };
@@ -36,7 +36,7 @@ export class GetUserService {
    }
 
    //update
-   updateUser(data):Observable<any>{
+   updatePhone(data):Observable<any>{
     this.httpOptions = {
       params: {'actionUpdate':'yes', 'id':data.id, 'MacAddress':data.macaddress, 'IPAddress':data.IPAddress,'Model':data.Model, 'Firmware':data.Firmware}
     };
@@ -46,7 +46,7 @@ export class GetUserService {
    }
 
    //Add New list
-   addNew(data):Observable<any>{
+   addNewPhone(data):Observable<any>{
     this.httpOptions = {
       params: {'actionAdd':'yes', 'MacAddress':data.macaddress, 'IPAddress':data.IPAddress,'Model':data.Model, 'Firmware':data.Firmware}
     };
