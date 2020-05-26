@@ -1,0 +1,22 @@
+package com.shiv.java;
+
+import java.sql.DriverManager;
+
+import com.mysql.jdbc.Connection;
+
+public class connect {
+	
+
+	
+	public static void main(String[] args) {
+		
+		Class.forName("com.mysql.jdbc.Driver"); 
+		String url = "jdbc:mysql://localhost:3306/activity";
+		String root = "root";
+		String password="admin"
+		Connection con=DriverManager.getConnection(url,root,password);  
+		//here sonoo is database name, root is username and password  
+		Statement stmt=con.createStatement();  
+	}
+}
+

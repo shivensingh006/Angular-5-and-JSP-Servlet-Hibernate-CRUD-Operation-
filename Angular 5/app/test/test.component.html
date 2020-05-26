@@ -1,0 +1,72 @@
+<p>
+  test works!
+</p>
+
+<b> 1- Interpolation Binding : On basis of this curly braces decided where must bind the value in template</b>
+
+<br/>
+<!-- this name value bind from component-->
+<h1> Hi : {{name}}</h1>
+
+<br/>
+
+<b>2-  Two-way binding :component <-> Template</b> <br/>
+<!-- prasented by [(target)]-->
+<br/>
+Enter Name - <input type="text" [(ngModel)] ="name" name="name">
+
+<br/><br/>
+
+<b> 3- Property Binding : Bind value of HTML element Property (like img, value, class, style etc.) from component to Template.</b>
+<br/>
+Enter Address - <input type="text" [disabled] ="disabled" name="address">
+
+
+<br/><br/>
+
+<b>4: Event Binding : when create event in template file then bind value from template to component</b>
+<br/>
+
+<button (click) = "transferDatatoComp()">Click On Button</button>
+
+
+
+<div>
+  <ul>
+  <li [ngClass]="color" (mouseover)="changeStyle($event)" (mouseout)="changeStyle($event)">test1</li>
+  <li [ngClass]="color" (mouseover)="changeStyle($event)" (mouseout)="changeStyle($event)">test2</li>
+  <li [ngClass]="color" (mouseover)="changeStyle($event)" (mouseout)="changeStyle($event)">test3</li>
+  <li [ngClass]="color" (mouseover)="changeStyle($event)" (mouseout)="changeStyle($event)">test4</li>
+  </ul>
+  </div>
+
+
+<button  (click)="editItem($event, 'dataId')">Edit</button>
+
+
+
+<!-- service-->
+
+<div align="center">
+  <table border="1" cellpadding="5">
+      <caption><h2>List of Phoneactivity</h2></caption>
+      <tr>
+          <th>MacAddress</th>
+          <th>IPAddress</th>
+          <th>Model</th>
+          <th>Firmware</th>
+          <th>Acton</th>
+      </tr>
+          <tr *ngFor="let data of searchResult">
+              <td>{{data.macaddress}}</td>
+              <td>{{data.ipaddress}}</td>
+              <td>{{data.model}}</td>
+              <td>{{data.firmware}}</td>
+              <td>
+               <a href="edit?id={{data.id}}/>">Edit</a>
+               &nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="delete?id={{data.id}}/>">Delete</a>                     
+              </td>
+          </tr>
+  </table>
+</div> 

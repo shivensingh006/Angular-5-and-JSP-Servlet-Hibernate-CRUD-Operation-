@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.lsp4e.debug.launchType">
+<booleanAttribute key="org.eclipse.lsp4e.debug.model.ATTR_CUSTOM_DEBUG_ADAPTER" value="false"/>
+<booleanAttribute key="org.eclipse.lsp4e.debug.model.ATTR_CUSTOM_LAUNCH_PARAMS" value="false"/>
+<stringAttribute key="org.eclipse.lsp4e.debug.model.ATTR_DSP_MODE" value="launch server"/>
+<booleanAttribute key="org.eclipse.lsp4e.debug.model.ATTR_DSP_MONITOR_ADAPTER" value="false"/>
+<stringAttribute key="org.eclipse.lsp4e.debug.model.ATTR_DSP_SERVER_HOST" value="127.0.0.1"/>
+<intAttribute key="org.eclipse.lsp4e.debug.model.ATTR_DSP_SERVER_PORT" value="4711"/>
+</launchConfiguration>

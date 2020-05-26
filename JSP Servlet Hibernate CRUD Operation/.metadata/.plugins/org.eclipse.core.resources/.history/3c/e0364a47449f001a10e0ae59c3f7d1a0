@@ -1,0 +1,134 @@
+package com.shiv.java.service;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.shiv.java.model.Phoneactivity;
+import com.shiv.java.utils.HibernateUtil;
+
+public class PhoneactivityService {
+
+    /**
+     * Save User
+     * @param user
+     */
+    public void savePhoneactivity(Phoneactivity phoneactivity) {
+        Transaction transaction = null;
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) { 
+            // start a transaction
+            transaction = session.beginTransaction();
+            // save the student object
+            session.save(phoneactivity);
+            // commit transaction
+            transaction.commit();
+        } catch (Exception e) {                                 //Service page for all the operation
+            if (transaction != null) {
+                //transaction.rollback();
+            }
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Update User
+     * @param user
+     */
+    public void updatePhoneactivity(Phoneactivity phoneactivity) {
+        Transaction transaction = null;
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+            // start a transaction
+            transaction = session.beginTransaction();
+            // save the student object
+            session.update(phoneactivity);
+            // commit transaction
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+               // transaction.rollback();
+            }
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Delete User
+     * @param id
+     */
+    public void deletePhoneactivity(int id) {
+
+        Transaction transaction = null;
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+            // start a transaction
+            transaction = session.beginTransaction();
+
+            // Delete a user object
+            Phoneactivity phoneactivity = session.get(Phoneactivity.class, id);
+            if (phoneactivity != null) {
+                session.delete(phoneactivity);
+                System.out.println("phoneactivity is deleted");
+            }
+
+            // commit transaction
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+                //transaction.rollback();
+            }
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * Get User By ID
+     * @param id
+     * @return
+     */
+    public Phoneactivity getPhoneactivity(int id) {  
+
+        Transaction transaction = null;
+        Phoneactivity phoneactivity = null;
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+            // start a transaction
+            transaction = session.beginTransaction();
+            // get an user object
+            phoneactivity = session.get(Phoneactivity.class, id);
+            // commit transaction
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+                //transaction.rollback();
+            }
+            e.printStackTrace();
+        }
+        return phoneactivity;
+    }
+
+    /**
+     * Get all Users
+     * @return
+     */
+    @SuppressWarnings("unchecked")
+    public List < Phoneactivity > getAllPhoneactivity() { 
+
+        Transaction transaction = null;
+        List < Phoneactivity > listOfUser = null;
+        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
+            // start a transaction
+            transaction = session.beginTransaction();
+            // get an user object
+
+            listOfUser = session.createQuery("from Phoneactivity").getResultList(); 
+
+            // commit transaction
+            transaction.commit();
+        } catch (Exception e) {
+            if (transaction != null) {
+                transaction.rollback();
+            }
+            e.printStackTrace();
+        }
+        return listOfUser;
+    }
+}

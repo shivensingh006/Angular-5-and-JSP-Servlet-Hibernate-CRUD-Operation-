@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+body {
+    background: #FFF url(../image/bg.jpg) repeat-x;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    text-align: left;
+    position: relative;
+    overflow: visible;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+}

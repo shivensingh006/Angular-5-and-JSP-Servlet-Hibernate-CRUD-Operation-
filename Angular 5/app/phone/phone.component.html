@@ -1,0 +1,37 @@
+
+<div class="container-fluid">
+  <header class="jumbotron">
+    <h1 class="header-text">
+       Phone List
+    </h1>
+</header>
+<!-- service-->
+
+<div class="container">
+<div align="center">
+  <table class="table table-striped table-bordered table-hover">
+      <caption><h2>List of Phoneactivity</h2></caption>
+      <thead>
+      <tr>
+          <th>Phone Mac</th>
+          <th>IPAddress</th>
+          <th>Model</th>
+          <th>Software</th>
+          <th>Acton</th>
+      </tr>
+      </thead>
+          <tr [class] = "addClass" *ngFor="let data of searchResult">
+              <td>{{data.Macaddress}}</td>
+              <td>{{data.Ipaddress}}</td>
+              <td>{{data.Model}}</td>
+              <td>{{data.Firmware}}</td>
+              <td>
+                <a [routerLink]="['/edit-user', data.id]">
+                Edit | </a>
+               <a (click) = "deleteUser($event, data.id)">Delete</a>                     
+              </td>
+          </tr>
+  </table>
+</div> 
+</div>
+</div>

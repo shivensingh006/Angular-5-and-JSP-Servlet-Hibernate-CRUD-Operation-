@@ -1,0 +1,26 @@
+package com.shiv.java;
+
+import java.sql.DriverManager;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.Statement;
+
+public class connect {
+	
+
+	
+	public static void main(String[] args) {
+		try{  
+		Class.forName("com.mysql.jdbc.Driver"); 
+		String url = "jdbc:mysql://localhost:3306/activity";
+		String root = "root";
+		String password="admin";
+		Connection con=(Connection) DriverManager.getConnection(url,root,password);  
+		System.out.print(con);
+		Statement stmt = (Statement) con.createStatement();
+		stmt.executeQuery("select I*  from phoneactivity where Model='6930');
+		
+		}catch(Exception e){ System.out.println(e);}  
+	}
+}
+

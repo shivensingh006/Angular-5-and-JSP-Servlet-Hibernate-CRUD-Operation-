@@ -1,0 +1,127 @@
+package com.shiv.java;
+
+import java.io.IOException;
+import java.sql.SQLException;
+import java.util.List;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.shiv.java.model.Phoneactivity;
+import com.shiv.java.service.PhoneactivityService;
+
+
+@WebServlet("/")
+public class phoneactivity extends HttpServlet {  
+	private static final long serialVersionUID = 1L;
+    private PhoneactivityService phoneactivityService;  
+
+    public void init() {
+    	phoneactivityService = new PhoneactivityService();
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        doGet(request, response);
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        String action = request.getServletPath();
+
+        try {
+            switch (action) {
+                case "/new":
+                    showNewForm(request, response);
+                    break;
+                case "/insert":
+                    insertPhoneactivity(request, response);
+                    break;
+                case "/delete":
+                    deletePhoneactivity(request, response);
+                    break;
+                case "/edit":
+                    showEditForm(request, response);
+                    break;
+                case "/update":
+                	updatPhoneactivity(request, response);
+                    break;
+                case "/service":
+                	listPhoneactivityService(request, response);
+                    break;
+                default:
+                    listPhoneactivity(request, response); 
+                    break;
+            }
+        } catch (SQLException ex) {
+            throw new ServletException(ex);
+        }
+    }
+
+    private void listPhoneactivity(HttpServletRequest request, HttpServletResponse response)
+    throws SQLException, IOException, ServletException {
+        List < Phoneactivity > listUser = phoneactivityService.getAllPhoneactivity();
+        request.setAttribute("listUser", listUser);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("Phoneactivity-list.jsp");
+        dispatcher.forward(request, response);
+    }
+
+    
+    private List < Phoneactivity > listPhoneactivityService(HttpServletRequest request, HttpServletResponse response)
+    	    throws SQLException, IOException, ServletException {
+    	        List < Phoneactivity > listUser = phoneactivityService.getAllPhoneactivity();
+    	        return listUser;
+    	        
+     }
+    
+    private void showNewForm(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        RequestDispatcher dispatcher = request.getRequestDispatcher("Phoneactivity-form.jsp");
+        dispatcher.forward(request, response);
+    }
+
+    private void showEditForm(HttpServletRequest request, HttpServletResponse response)
+    throws SQLException, ServletException, IOException {
+    	int id = Integer.parseInt(request.getParameter("id"));
+        Phoneactivity existingPhoneactivity = phoneactivityService.getPhoneactivity(id);
+        RequestDispatcher dispatcher = request.getRequestDispatcher("Phoneactivity-form.jsp");
+        request.setAttribute("phoneactivity", existingPhoneactivity);
+        dispatcher.forward(request, response);
+
+    } 
+
+    private void insertPhoneactivity(HttpServletRequest request, HttpServletResponse response)
+    throws SQLException, IOException {
+        String MacAddress = request.getParameter("MacAddress");
+        String IPAddress = request.getParameter("IPAddress");
+        String Model = request.getParameter("Model");
+        String Firmware = request.getParameter("Firmware");
+        Phoneactivity newphoneactivity = new Phoneactivity(MacAddress, IPAddress, Model, Firmware);
+        phoneactivityService.savePhoneactivity(newphoneactivity);
+        response.sendRedirect("list");
+    }   
+
+    private void updatPhoneactivity(HttpServletRequest request, HttpServletResponse response)
+    throws SQLException, IOException {
+    	int id = Integer.parseInt(request.getParameter("id"));
+    	String MacAddress = request.getParameter("MacAddress");
+        String IPAddress = request.getParameter("IPAddress");
+        String Model = request.getParameter("Model");
+        String Firmware = request.getParameter("Firmware"); 
+        
+        Phoneactivity newphoneactivity = new Phoneactivity(id, MacAddress, IPAddress, Model, Firmware);
+        phoneactivityService.updatePhoneactivity(newphoneactivity);
+        response.sendRedirect("list");
+    }
+
+    private void deletePhoneactivity(HttpServletRequest request, HttpServletResponse response)
+    throws SQLException, IOException {
+    	int id = Integer.parseInt(request.getParameter("id"));
+    	phoneactivityService.deletePhoneactivity(id);
+        response.sendRedirect("list");
+    }
+}

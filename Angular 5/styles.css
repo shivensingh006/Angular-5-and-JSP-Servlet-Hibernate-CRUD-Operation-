@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    background: beige !important;
+}
+.p-md-5 {
+    padding: 3rem!important;
+}
+
+.bg-dark{
+    background-color: #343a40!important;
+}
+.text-black{
+    color:#000 !important;
+}
+.header-text{
+    margin-bottom: 3rem!important;
+    font-size: 3rem;
+    font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff!important;
+}
+.hide{
+    display: none;
+}
+.navbar-nav>li {
+    padding-left: 56px;
+    padding-top: 11px;
+    font-size: 17px;
+    color: white;
+    list-style: none;
+}
+.navbar-nav>li a{
+
+    color:#fff;
+}
+.navbar{
+    margin-bottom: 1px !important;
+    border-radius: initial !important;
+    border-bottom: 3px #dd3d31 solid !important;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+    border-radius: initial !important;
+    border-bottom: 3px solid #aea9a9 !important;
+    background: url(img/bg-image.jpg) no-repeat center center;
+    position: relative;
+    background-color: #343a40;
+    background-size: cover;
+}
+thead{
+    background: black;
+    color: #fff;
+}
+.table-hover>tbody>tr{
+    background: #d9d9d9;
+}

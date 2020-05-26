@@ -1,0 +1,182 @@
+2020-05-05 15:18:46,931 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-05 17:00:57,801 [Worker-53: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mitel.desktop.rcs:rcs-rest-service:1.0.0-SNAPSHOT @ D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service\pom.xml.
+2020-05-05 17:01:08,028 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 17:01:08,037 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 17:01:08,087 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 17:01:08,102 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 17:01:08,106 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-05 17:27:00,830 [Worker-63: Launching Executing install in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 17:27:00,831 [Worker-63: Launching Executing install in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-05-05 17:27:06,986 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 17:27:06,991 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 17:27:06,995 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 17:27:06,999 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 17:27:06,999 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-05 21:10:01,029 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-05 21:15:51,107 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:15:51,115 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 21:15:51,144 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 21:15:51,150 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:15:51,152 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-05 21:16:05,596 [Worker-12: Launching Executing install in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:16:05,601 [Worker-12: Launching Executing install in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-05-05 21:16:11,435 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:16:11,439 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 21:16:11,443 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 21:16:11,447 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:16:11,447 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-05 21:17:31,136 [Worker-15: Launching Executing clean in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:17:31,136 [Worker-15: Launching Executing clean in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-05-05 21:17:38,817 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:17:38,819 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 21:17:38,823 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 21:17:38,829 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:17:38,831 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-05 21:18:26,654 [Worker-16: Launching Executing install in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:18:26,654 [Worker-16: Launching Executing install in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-05-05 21:18:32,189 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:18:32,190 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 21:18:32,193 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 21:18:32,196 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:18:32,197 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-05 21:19:00,840 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-05-05 21:19:04,585 [Worker-12: Launching rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:19:04,587 [Worker-12: Launching rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2020-05-05 21:19:20,039 [Worker-2: Launching Executing clean in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:19:20,039 [Worker-2: Launching Executing clean in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-05-05 21:19:23,892 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:19:23,894 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 21:19:23,897 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 21:19:23,904 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:19:23,905 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-05 21:20:55,578 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2020-05-05 21:21:03,902 [Worker-12: Launching rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:21:03,902 [Worker-12: Launching rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2020-05-05 21:24:45,666 [main] ERROR o.e.m.j.u.i.DownloadSourcesActionDelegate - Could not schedule source download
+org.eclipse.jdt.core.JavaModelException: bin/src/main/java/com/mitel/desktop/rcs [in rcs-rest-service] is not on its project's build path
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:583) ~[na:na]
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326) ~[na:na]
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getKind(PackageFragmentRoot.java:530) ~[na:na]
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getSourceAttachmentPath(PackageFragmentRoot.java:655) ~[na:na]
+	at org.eclipse.m2e.jdt.ui.internal.DownloadSourcesActionDelegate.setActiveEditor(DownloadSourcesActionDelegate.java:53) ~[na:na]
+	at org.eclipse.ui.internal.EditorPluginAction.editorChanged(EditorPluginAction.java:69) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$EditorContribution.editorChanged(EditorActionBuilder.java:77) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.EditorActionBuilder$ExternalContributor.setActiveEditor(EditorActionBuilder.java:123) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:338) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:326) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.access$2(WorkbenchPage.java:307) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:215) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$3.run(PartServiceImpl.java:253) [org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:250) [org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:774) [org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:683) [org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:678) [org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3203) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3100) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72) ~[org.eclipse.swt.win32.win32.x86_64_3.114.0.v20200304-0601.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3098) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3068) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3059) [org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:376) ~[na:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:182) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:285) ~[na:na]
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:251) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274) ~[na:na]
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252) ~[na:na]
+	at org.eclipse.jdt.internal.ui.navigator.OpenAndExpand.run(OpenAndExpand.java:53) ~[na:na]
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:215) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.navigator.CommonNavigatorManager$1.open(CommonNavigatorManager.java:183) ~[na:na]
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:802) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) [org.eclipse.equinox.common_3.11.0.v20200206-0817.jar:na]
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:799) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:na]
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1115) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:na]
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:454) ~[na:na]
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:275) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:na]
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:270) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:na]
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:310) ~[org.eclipse.jface_3.19.0.v20200218-1607.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.114.0.v20200304-0601.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105) ~[org.eclipse.swt.win32.win32.x86_64_3.114.0.v20200304-0601.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037) ~[org.eclipse.swt.win32.win32.x86_64_3.114.0.v20200304-0601.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922) ~[org.eclipse.swt.win32.win32.x86_64_3.114.0.v20200304-0601.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524) ~[org.eclipse.swt.win32.win32.x86_64_3.114.0.v20200304-0601.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160) ~[org.eclipse.e4.ui.workbench.swt_0.14.900.v20200213-1442.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[org.eclipse.core.databinding.observable_1.9.0.v20200205-2119.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049) ~[org.eclipse.e4.ui.workbench.swt_0.14.900.v20200213-1442.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[org.eclipse.e4.ui.workbench_1.11.200.v20200205-1503.jar:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[org.eclipse.core.databinding.observable_1.9.0.v20200205-2119.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) ~[org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) ~[org.eclipse.equinox.app_1.4.400.v20191212-0743.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.15.200.v20200214-1600.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.15.200.v20200214-1600.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) ~[org.eclipse.osgi_3.15.200.v20200214-1600.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) ~[org.eclipse.osgi_3.15.200.v20200214-1600.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_161]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+2020-05-05 21:32:13,987 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-05-05 21:32:31,130 [Worker-21: Launching rcs-rest-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:32:31,130 [Worker-21: Launching rcs-rest-service (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2020-05-05 21:33:29,219 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-05-05 21:35:43,542 [Worker-28: Launching Executing clean in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:35:43,542 [Worker-28: Launching Executing clean in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-05-05 21:35:47,698 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:35:47,699 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 21:35:47,702 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 21:35:47,711 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:35:47,713 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-05 21:36:55,671 [Worker-27: Launching rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:36:55,671 [Worker-27: Launching rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2020-05-05 21:39:37,338 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-05-05 21:39:43,699 [Worker-24: Launching rcs-rest-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:39:43,699 [Worker-24: Launching rcs-rest-service (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2020-05-05 21:44:10,779 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-05-05 21:45:26,576 [Worker-19: Launching rcs-rest-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:45:26,576 [Worker-19: Launching rcs-rest-service (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2020-05-05 21:45:55,860 [Worker-19: Launching Executing clean in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:45:55,860 [Worker-19: Launching Executing clean in D__RCS_REST_SERVICE_RCS_REST_SERVICE_rcs-rest-service] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2020-05-05 21:46:00,094 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:46:00,095 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-05 21:46:00,098 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-05-05 21:46:00,104 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:46:00,106 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 13 resources
+2020-05-05 21:46:19,514 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-05-05 21:47:40,845 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:47:40,846 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-05 21:47:40,846 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-05 21:47:40,852 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-05 21:47:40,853 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-05 21:47:43,112 [Worker-35: Launching rcs-rest-service (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:47:43,112 [Worker-35: Launching rcs-rest-service (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2020-05-05 21:50:16,348 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2020-05-05 21:50:27,021 [Worker-36: Launching rcs-rest-service (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\RCS_REST_SERVICE\RCS_REST_SERVICE\rcs-rest-service
+2020-05-05 21:50:27,022 [Worker-36: Launching rcs-rest-service (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B spring-boot:run
+2020-05-06 17:55:00,949 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-06 17:56:13,288 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-06 17:59:48,519 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-07 23:52:30,738 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-08 13:04:39,480 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-09 08:40:58,663 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-15 01:40:26,875 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-16 12:20:13,193 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-17 23:51:09,229 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-19 13:55:49,238 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-19 13:57:11,265 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-20 16:51:49,671 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-21 12:46:05,937 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-25 12:47:02,986 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-26 15:50:25,694 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-05-26 17:05:18,184 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
