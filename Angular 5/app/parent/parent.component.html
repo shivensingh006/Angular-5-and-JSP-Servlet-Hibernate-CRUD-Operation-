@@ -1,3 +1,12 @@
+<div class="container-fluid">
+  <header class="jumbotron">
+    <h1 class="header-text">
+      Input and Output Decorators
+    </h1>
+</header>
+<!-- service-->
+
+<div class="container">
 <p>
   <b> Parent Component</b> <br/>
   parent works - <b>{{getChildData}}</b>
@@ -5,3 +14,4 @@
 
 <!-- Includ the child component using selector app-child-->
 <app-child [name] ="dataForChild" (sendDataToParent) = "getDataFromChild($event)"></app-child>
+</div>

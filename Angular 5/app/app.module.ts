@@ -16,10 +16,11 @@ import { AddNewComponent } from './add-new/add-new.component';
   declarations: [AppComponent, ChildComponent, ParentComponent, TestComponent, PhoneComponent, EditComponent, AddNewComponent], 
   imports: [
   	RouterModule.forRoot([
-    {path:'', component:TestComponent}, //I added ParentComponent in router for home page
-    {path:'phone', component:PhoneComponent},
+    {path:'', component:PhoneComponent}, 
     { path: 'edit-user/:id', component: EditComponent },
-    { path: 'add-new', component: EditComponent }
+    {path:'Data-Binding', component:TestComponent},
+    { path: 'add-new', component: EditComponent },
+    { path: 'input-outPut', component: ParentComponent }
     ]),
     ReactiveFormsModule, 
     BrowserModule,

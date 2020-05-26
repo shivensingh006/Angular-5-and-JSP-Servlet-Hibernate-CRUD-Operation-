@@ -66,7 +66,7 @@ onSubmit(data) {
     this.searchResult = result}
     );
     if( this.searchResult != ""){
-      window.location.href="/phone";
+      window.location.href="/";
     }
   }
 

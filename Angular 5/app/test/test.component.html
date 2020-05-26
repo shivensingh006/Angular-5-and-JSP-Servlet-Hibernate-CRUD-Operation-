@@ -1,6 +1,12 @@
-<p>
-  test works!
-</p>
+<div class="container-fluid">
+  <header class="jumbotron">
+    <h1 class="header-text">
+       Example of Data Binding
+    </h1>
+</header>
+<!-- service-->
+
+<div class="container">
 
 <b> 1- Interpolation Binding : On basis of this curly braces decided where must bind the value in template</b>
 
@@ -41,32 +47,5 @@ Enter Address - <input type="text" [disabled] ="disabled" name="address">
   </div>
 
 
-<button  (click)="editItem($event, 'dataId')">Edit</button>
 
-
-
-<!-- service-->
-
-<div align="center">
-  <table border="1" cellpadding="5">
-      <caption><h2>List of Phoneactivity</h2></caption>
-      <tr>
-          <th>MacAddress</th>
-          <th>IPAddress</th>
-          <th>Model</th>
-          <th>Firmware</th>
-          <th>Acton</th>
-      </tr>
-          <tr *ngFor="let data of searchResult">
-              <td>{{data.macaddress}}</td>
-              <td>{{data.ipaddress}}</td>
-              <td>{{data.model}}</td>
-              <td>{{data.firmware}}</td>
-              <td>
-               <a href="edit?id={{data.id}}/>">Edit</a>
-               &nbsp;&nbsp;&nbsp;&nbsp;
-               <a href="delete?id={{data.id}}/>">Delete</a>                     
-              </td>
-          </tr>
-  </table>
-</div> 
+</div>
